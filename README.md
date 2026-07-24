@@ -45,21 +45,23 @@ The key design decision: parsers only handle format-specific parsing and normali
 
 ## Project Structure
 
+```
 log-analyzer-siem-lite/
-├── detect_threats.py # Detection engine + CLI entry point
-├── parse_ssh_log.py # SSH auth.log parser
-├── parse_winevents_log.py # Windows Event Log parser
+├── detect_threats.py          # Detection engine + CLI entry point
+├── parse_ssh_log.py           # SSH auth.log parser
+├── parse_winevents_log.py     # Windows Event Log parser
 ├── sample_logs/
-│ ├── sample_auth.log # Sample SSH log with normal + attack traffic
-│ └── sample_winevents.log # Same scenario in Windows Event Log format
+│   ├── sample_auth.log        # Sample SSH log with normal + attack traffic
+│   └── sample_winevents.log   # Same scenario in Windows Event Log format
 ├── screenshots/
-│ ├── 01-detection-alerts.png
-│ ├── 02-csv-export-output.png
-│ ├── 03-cli-help.png
-│ └── 04-full-scan-output.png
-├── alerts_output.json # Generated on run
-├── alerts_output.csv # Generated on run
+│   ├── 01-detection-alerts.png
+│   ├── 02-csv-export-output.png
+│   ├── 03-cli-help.png
+│   └── 04-full-scan-output.png
+├── alerts_output.json         # Generated on run
+├── alerts_output.csv          # Generated on run
 └── README.md
+```
 
 ## Setup & Installation
 
