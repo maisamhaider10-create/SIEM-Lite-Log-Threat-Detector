@@ -28,18 +28,20 @@ Real SIEM platforms (Splunk, Wazuh, Sentinel, etc.) ingest authentication logs a
 
 ## Architecture
 
+```
 Log File (SSH or Windows Event Log)
-│
-▼
-Parser Layer parse_ssh_log.py / parse_winevents_log.py
-(format-specific) → normalizes into: {timestamp, username, ip, outcome}
-│
-▼
-Detection Engine detect_threats.py
-(format-agnostic) → brute-force / username sweep / off-hours rules
-│
-▼
-Export Layer JSON + CSV output files
+        │
+        ▼
+   Parser Layer          parse_ssh_log.py / parse_winevents_log.py
+   (format-specific)     → normalizes into: {timestamp, username, ip, outcome}
+        │
+        ▼
+   Detection Engine       detect_threats.py
+   (format-agnostic)      → brute-force / username sweep / off-hours rules
+        │
+        ▼
+   Export Layer           JSON + CSV output files
+```
 
 The key design decision: parsers only handle format-specific parsing and normalization. The detection engine never touches raw log syntax — it only works with the normalized event shape. This means adding a third log format later (e.g., a firewall log) only requires writing a new parser, with zero changes to detection logic.
 
