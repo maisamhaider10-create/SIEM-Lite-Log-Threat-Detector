@@ -1,0 +1,249 @@
+Log Name:      Security
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Date:          7/24/2026 8:15:03 AM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 168.24.5.12
+Source Port:        52210
+Status:             0x0
+
+Log Name:      Security
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Date:          7/24/2026 8:50:41 AM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Haider
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 168.24.5.4
+Source Port:        51188
+Status:             0x0
+
+Log Name:      Security
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Date:          7/24/2026 9:30:17 AM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Ali
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 168.23.4.2
+Source Port:        53309
+Status:             0x0
+
+Log Name:      Security
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Date:          7/24/2026 1:15:29 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Ali
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 168.23.4.2
+Source Port:        54012
+Status:             0x0
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:02 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41022
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:04 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41024
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:06 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41026
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:08 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41028
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:09 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41030
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:11 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41032
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:13 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41034
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 5:45:15 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        41036
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 10:30:02 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Haider
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 198.51.100.77
+Source Port:        39012
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 10:30:08 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Ali
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 198.51.100.77
+Source Port:        39018
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 10:30:14 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Maisam
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 198.51.100.77
+Source Port:        39024
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Date:          7/24/2026 10:30:19 PM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       admin
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 198.51.100.77
+Source Port:        39030
+Failure Reason:     Unknown user name or bad password
+Status:             0xC000006D
+
+Log Name:      Security
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Date:          7/25/2026 3:14:07 AM
+Source:        Microsoft-Windows-Security-Auditing
+Account Name:       Haider
+Account Domain:     WORKSTATION-01
+Logon Type:         10
+Source Network Address: 203.0.113.45
+Source Port:        44210
+Status:             0x0
